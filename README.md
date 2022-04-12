@@ -5,6 +5,7 @@ Codes can be seen in `heart-disease-prediction.ipynb`.
 
 We use Heart Disease UCI dataset (link: https://archive.ics.uci.edu/ml/datasets/Heart+Disease) for this project. This dataset contains 76 attributes, but all published experiments refer to using a subset of 14 of them. Brief description of its attributes are shown below:
 
+```
 age: age in years
 sex: sex (1 = male; 0 = female)
 cp: chest pain type
@@ -33,4 +34,6 @@ thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 target: diagnosis of heart disease (angiographic disease status)
 -- Value 0: < 50% diameter narrowing
 -- Value 1: > 50% diameter narrowing
+```
+
 With the help of this dataset, we aim to predict the presence of heart disease with these 13 features for the patients. Our goal is to use the machine learning models to help predict the variable target. 
